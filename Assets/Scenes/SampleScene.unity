@@ -193,12 +193,12 @@ MonoBehaviour:
     PlayerPrefabHash:
       id: 0
     CreatePlayerPrefab: 1
-    ReceiveTickrate: 64
-    NetworkTickIntervalSec: 0.05
+    ReceiveTickrate: 128
+    NetworkTickIntervalSec: 0.005
     MaxReceiveEventsPerTickRate: 500
-    EventTickrate: 64
+    EventTickrate: 128
     ClientConnectionBufferTimeout: 10
-    ConnectionApproval: 0
+    ConnectionApproval: 1
     ConnectionData: 
     EnableTimeResync: 0
     TimeResyncInterval: 30
@@ -666,6 +666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuPanel: {fileID: 315305656}
+  InputField: {fileID: 323162506}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
